@@ -10,6 +10,7 @@ class PostSerializer(ModelSerializer):
             'id', 
             'title', 
             'author',
+            'photo',
             'content', 
             'created_at', 
             'updated_at'
